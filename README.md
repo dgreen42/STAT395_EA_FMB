@@ -9,4 +9,6 @@ Data was provided by the Harris Lab at the University of Vermont
 
 Edge list, an vertices's generated using R studio. 
 
+Additionally there is a function included in this repository that can be used to calculate the harmonic centrality for each node in the graph. While packages like igraph do have a function to calculate the same value, theirs does not standardize their measure. This harmonic centrality funtion multiplies the value by 1/n-1 to standardize each value for each node. This function is written in R but can easily be translated into other languages.
+
 Any questions may be directed to myself, David Green: dgreen2@uvm.edu
